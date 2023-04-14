@@ -5,18 +5,30 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
+    background: #FEF2F4;
+}
+
+.container img{
     display: inline-block;
     background:#FEF2F4;
     width: 100%;
     text-align: center;
     
 }
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:#FEF2F4;
+}
 
 .banda{
     display: inline-block;
     top: 50%;
     right: 500px;
+    align-items: center;
     font-size: 30px;
 }
 
@@ -69,6 +81,7 @@
     justify-content: space-around;
          /* padding: 20px; */
 
-     margin-left: 10px;
-    
+         
+
+     margin-left: 10px;  
 }

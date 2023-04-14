@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.img-n{
+    width: 900px;
+    height: 500px;
+    box-shadow: 4px 4px 8px rgb(170, 16, 170);
+    display: flex;
+}
+
+.section{
+    margin-top: 40px;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: start;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.article{
+    width: 900px;
+
+    margin-top: 40px;
+}
+
+.letra-1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+
+    text-align: justify;
+}
+
+
+.main-2{
+    display: flex;
+    justify-content: center;
+}
+
+.section-2{
+    margin-top: 40px;
+    width: 900px;
+}
+
+.m-fav{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+
+/* CAIXA DE AUDIO */
+.caixa-midia{
+    max-width: 1200px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    display: grid;
+    grid-row-gap: 1rem;
+    
+    gap: 20px;
+    grid-template-areas: 
+    'm1 m1'
+    'm2 m2'
+    'm3 m3'
+    'm4 m4';
+}
+
+.m1 audio{
+    width: 450px;
+}
+.m2 audio{
+    width: 450px;
+}
+.m3 audio{
+    width: 450px;
+}
+.m4 audio{
+    width: 450px;
+}
+/* FIM - CAIXA DE AUDIO */
+
+
+
+/* CAIXA DE VIDEO */
+
+.clipes-fav{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-video{
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+
+    display: grid;
+    grid-row-gap: 1rem;
+
+    gap: 30px;
+
+    grid-template-areas: 
+    'video1 video1'
+    'video2 video2'
+    'video3 video3'
+    'video4 video4';
+    
+}
